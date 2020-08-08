@@ -32,8 +32,8 @@ Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.he
 7. Center the digit on the cell.<br> 
  <img src = "MEDIA/CENTRERD.jpg" width=200><br>
 
-8. Predict the number on cell using Neural Network.
-9. Use BackTracing Alogrith to solve sudoku.<br>
+8. Predict the number on cell using Neural Network.<br>
+9. Use BackTracing Alogrithm to solve sudoku.
 10. Display the result.<br>
  <img src = "MEDIA/result.jpg" ><br>
    
@@ -43,7 +43,7 @@ Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.he
 # Dataset 
 At first i tried on MNIST dataset for number prediction. But the model was having some issues differentiating between number 1 and 7 and sometimes 6 and 8. So i used  	
 [TheChars74K](http://www.ee.surrey.ac.uk/CVSSP/demos/chars74k/) dataset and apply some manual filtering and applied necessary processing dataset so that there is no issue
-differentiating number 1 and 7 and 6 and 8.The dataset is splitted into 80-20 train-test split with following operations applied while traning : 
+differentiating number 1 and 7 and also 6 and 8.The dataset is splitted into 80-20 train-test split with following operations applied while traning : 
 ```
 test_path = data_dir+'\\test\\'
 train_path = data_dir+'\\train\\'
