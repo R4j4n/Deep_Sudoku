@@ -30,13 +30,12 @@ Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.he
   fig: cell with chopped borders.
 
 7. Center the digit on the cell.<br> 
- <img src = "MEDIA/CENTRERD.jpg" width=200>
-
+ <img src = "MEDIA/CENTRERD.jpg" width=200><br>
 
 8. Predict the number on cell using Neural Network.
 9. Use BackTracing Alogrith to solve sudoku.<br>
 10. Display the result.<br>
-<img src = "MEDIA/result.jpg" >
+ <img src = "MEDIA/result.jpg" ><br>
    
 
 
