@@ -29,14 +29,14 @@ Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.he
   <img src = "MEDIA/chopped.jpg" width=200><br>
   fig: cell with chopped borders.
 
-7. Center the digit on the cell. 
+7. Center the digit on the cell.<br> 
  <img src = "MEDIA/CENTRERD.jpg" width=200>
 
 
 8. Predict the number on cell using Neural Network.
 9. Use BackTracing Alogrith to solve sudoku.<br>
-10. Display the result.
- <img src = "MEDIA/result.jpg" >
+10. Display the result.<br>
+<img src = "MEDIA/result.jpg" >
    
 
 
