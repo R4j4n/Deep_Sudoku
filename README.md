@@ -24,14 +24,13 @@ Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.he
 ![alt](MEDIA/wrappedg.jpg)
  
  6. Extract each cell in the wrapped image and chop it borders as it may contain some white pixels.<br>
-   <img src = "MEDIA/noncentered.jpg" width=200><br>
-     fig: cell extracted from wrapped image.
-   <br>  
+  <img src = "MEDIA/noncentered.jpg" width=200><br>
+  fig: cell extracted from wrapped image.<br>
   <img src = "MEDIA/chopped.jpg" width=200><br>
-    fig: cell with chopped borders.
+  fig: cell with chopped borders.
 
 7. Center the digit on the cell. 
-   <img src = "MEDIA/CENTRERD.jpg" width=200>
+ <img src = "MEDIA/CENTRERD.jpg" width=200>
 
 
 8. Predict the number on cell using Neural Network.
