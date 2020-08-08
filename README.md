@@ -7,41 +7,38 @@ Solving sudoku from images using Computer Vision and Deep Learning. <br/>
 Working demo of project can be tested ☺️ : [HERE](https://solveyoursudoku.herokuapp.com/)<br/>
 
 # STEPS 
- 1. Input the sudoku image. <br/>
- <br/>
- ![alt](MEDIA/test3.jpg)
+ 1. Input the sudoku image.
+![alt](MEDIA/test3.jpg)
 
- 2. Apply Thresholding to image. <br/>
- <br/>
- ![alt](MEDIA/threshold.jpg)
- <br/>
- 3. Select the biggest contour with four corners. <br/>
- <br/>
- ![alt](MEDIA/thresholdg.jpg)
- <br/>
- 4. From 4 Point get the Perspective transform.<br/>
- <br/>
- ![alt](MEDIA/wrapped.jpg)
- 5. Divide the wrapped image into 81 cells. <br/>
- <br/>
- ![alt](MEDIA/wrappedg.jpg)
+ 2. Apply Thresholding to image.
+![alt](MEDIA/threshold.jpg)
+
+ 3. Select the biggest contour with four corners.
+![alt](MEDIA/thresholdg.jpg) 
+
+
+ 4. From 4 Point get the Perspective transform.    
+![alt](MEDIA/wrapped.jpg)
+
+ 5. Divide the wrapped image into 81 cells.  
+![alt](MEDIA/wrappedg.jpg)
  
- 6. Extract each cell in the wrapped image and chop it borders as it may contain some white pixels. <br/>
- <br/>
- ![alt](MEDIA/noncentered.jpg) <br/>
- fig: cell extracted from wrapped image.<br/>
-<br/>
-![alt](MEDIA/chopped.jpg) <br/>
-fig: cell with chopped borders.
-7. Center the digit on the cell. <br/>
-<br/>
-![alt](MEDIA/CENTRERD.jpg) <br/>
+ 6. Extract each cell in the wrapped image and chop it borders as it may contain some white pixels.<br>
+   <img src = "MEDIA/noncentered.jpg" width=200><br>
+     fig: cell extracted from wrapped image.
+   <br>  
+  <img src = "MEDIA/chopped.jpg" width=200><br>
+    fig: cell with chopped borders.
+
+7. Center the digit on the cell. 
+   <img src = "MEDIA/CENTRERD.jpg" width=200>
+
 
 8. Predict the number on cell using Neural Network.
-9. Use BackTracing Alogrith to solve sudoku.
-<br>
+9. Use BackTracing Alogrith to solve sudoku.<br>
 10. Display the result.
-![alt](MEDIA/result.jpg) <br/> 
+ <img src = "MEDIA/result.jpg" >
+   
 
 
 
